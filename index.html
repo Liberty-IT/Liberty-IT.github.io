@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+
+    <!-- Instant redirect (works even with JS disabled) -->
+    <meta http-equiv="refresh" content="0;url=https://github.com/Liberty-IT" />
+
+    <!-- Help search engines understand the destination -->
+    <link rel="canonical" href="https://github.com/Liberty-IT" />
+
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <noscript>
+      <p>Redirecting to <a href="https://github.com/Liberty-IT">github.com/Liberty-IT</a>…</p>
+    </noscript>
+
+    <script>
+      // Prefer JS redirect when available (no back-button loop)
+      window.location.replace("https://github.com/Liberty-IT");
+    </script>
+  </body>
+</html>
